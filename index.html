@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Hello above root</h1>
+    <div id="root">
+      <h1>This H1 is already in HTML</h1>
+    </div>
+    <h1>Hello below root</h1>
+    <!-- <script>
+      const heading = document.createElement("h1");
+      const root = document.querySelector("#root");
+      heading.innerText = "Hello Akshay!";
+      root.appendChild(heading);
+    </script>
+    <script>
+      const heading2 = document.createElement("h1");
+      const root2 = document.querySelector("#root");
+      heading2.innerText = "Hello Akshay 2!";
+      root2.appendChild(heading2);
+    </script> -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="./App.js"></script>
+    <!-- the order of these files should be like this only -->
+  </body>
+</html>
