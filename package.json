@@ -1,0 +1,29 @@
+{
+  "name": "react-learnings",
+  "version": "1.0.0",
+  "description": "\"This is React Learning\"",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/29shivam99/React-Shivam.git"
+  },
+  "keywords": [],
+  "author": "Shivam Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/29shivam99/React-Shivam/issues"
+  },
+  "homepage": "https://github.com/29shivam99/React-Shivam#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

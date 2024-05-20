@@ -9,7 +9,7 @@
   <body>
     <h1>Hello above root</h1>
     <div id="root">
-      <h1>This H1 is already in HTML</h1>
+      <h1>This H1 is already in HTML (not rendered)</h1>
     </div>
     <h1>Hello below root</h1>
     <!-- <script>
@@ -24,15 +24,16 @@
       heading2.innerText = "Hello Akshay 2!";
       root2.appendChild(heading2);
     </script> -->
-    <script
+    <!-- Using Raect and React DOM via CDN is not a good way-->
+    <!-- <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
     ></script>
     <script
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script src="./App.js"></script>
+    ></script> -->
+    <script src="./App.js" type="module"></script>
     <!-- the order of these files should be like this only -->
   </body>
 </html>
