@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Hello above root</h1>
+    <!-- <h1>Hello above root</h1> -->
     <div id="root">
       <h1>This H1 is already in HTML (not rendered)</h1>
     </div>
-    <h1>Hello below root</h1>
+    <!-- <h1>Hello below root</h1> -->
     <!-- <script>
       const heading = document.createElement("h1");
       const root = document.querySelector("#root");
@@ -25,15 +25,17 @@
       root2.appendChild(heading2);
     </script> -->
     <!-- Using Raect and React DOM via CDN is not a good way-->
-    <!-- <script
+    <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
+      type="module"
     ></script>
     <script
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script> -->
-    <script src="./App.js" type="module"></script>
+      type="module"
+    ></script>
+    <script src="./src/App.js" type="module"></script>
     <!-- the order of these files should be like this only -->
   </body>
 </html>

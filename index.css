@@ -1,3 +1,189 @@
-#heading {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0 10%;
+  padding: 0%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgb(240, 236, 236);
+  padding: 0px 10%;
+  /* background-color: rgb(201, 78, 33); */
+}
+
+.logo-container > img {
+  width: 100px;
+  height: 100px;
+  box-shadow: 40px 40px 40px 50px white;
+}
+
+.nav-items > ul {
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+}
+
+.nav-items > ul > li {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(78, 75, 75);
+  text-shadow: whitesmoke;
+  cursor: pointer;
+}
+
+.nav-items > ul > li:hover {
+  cursor: pointer;
+  color: rgb(10, 10, 10);
+  text-shadow: 10px;
+}
+
+.main-content {
+  margin-top: 10px;
+}
+
+.search {
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.search input {
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid rgb(159, 159, 159);
+}
+
+.search input:focus {
+  height: 35px;
+  outline: rgb(249, 247, 247);
+}
+
+button {
+  border: none;
+  background-color: rgb(255, 166, 0);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.main-content {
+  display: flex;
+}
+
+.res-card {
+  background-color: rgb(255 255 255);
+  width: 260px;
+  min-height: fit-content;
+  max-height: 350px;
+  /* max-height: ; */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 8px 8px 2px #ebebeb;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.res-card:hover {
+  box-shadow: 3px 3px 19px 4px rgb(203, 201, 201);
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.card-details > h3,
+h4 {
+  margin: 0px;
+}
+
+.body {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: start;
+  /* padding-left: 2%; */
+}
+
+.img-card {
+  width: 240px;
+  height: 140px;
+  border: none;
+  border-radius: 8px;
+}
+
+.img-container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  margin-top: 10px;
+}
+
+.filter-btn {
+  cursor: pointer;
+  border: 1px solid grey;
+  height: 35px;
+}
+
+.check-color {
+  color: rgb(236, 236, 236);
+}
+
+.res-card-shimmer {
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, #ffffffc7, #ece8e8);
+  border-radius: 8px;
+}
+
+.img-container-card-shimmer {
+  border: none;
+  box-shadow: 1px 1px 19px 12px rgb(237, 234, 234);
+  border-radius: 9px;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: rgb(26, 24, 24);
+  cursor: pointer;
+}
+
+.user-card {
+  color: white;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  /* box-shadow: 1px 1px 19px 12px rgb(252, 252, 252); */
+  background-image: linear-gradient(to bottom right, #abecf2c7, #5cafb1);
+}
+
+.about-cards-container {
+  display: flex;
+  margin: 20px 10%;
+  gap: 20px;
 }
