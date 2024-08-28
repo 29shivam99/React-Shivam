@@ -5,11 +5,8 @@ const useRestaurantMenu = (id) => {
   let [data, setData] = useState(null);
 
   useEffect(() => {
-    console.log("useeffect useRestaurantMenu");
     fetchRestaurantInfo();
   }, []);
-
-  console.log("useRestaurantMenu started");
 
   function getData() {
     return new Promise((resolve, reject) => {
@@ -20,9 +17,7 @@ const useRestaurantMenu = (id) => {
   }
 
   const fetchRestaurantInfo = async () => {
-    console.log("fetch started in useRestaurantMenu");
     let result = await getData();
-    console.log("in hook " + result);
     setData(result);
   };
 

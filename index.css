@@ -20,7 +20,7 @@
 .logo-container > img {
   width: 100px;
   height: 100px;
-  box-shadow: 40px 40px 40px 50px white;
+  /* box-shadow: 40px 40px 40px 50px white; */
 }
 
 .nav-items > ul {
@@ -211,4 +211,79 @@ a:-webkit-any-link {
 
 .promoted-res-container {
   position: relative;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+}
+.restaurant-category-container {
+  border-top: 10px solid rgb(239, 239, 239);
+  border-bottom: 10px solid rgb(239, 239, 239);
+  padding-bottom: 20px;
+
+  box-shadow: 0px 8px 8px 2px #ebebeb;
+}
+.accordion-container {
+  text-align: left;
+  width: 95%;
+  margin: auto;
+}
+
+.category-title {
+  width: 95%;
+  margin: auto;
+}
+.category-title > h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.accordion-header {
+  height: 60px;
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expand-btn > p {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.accordion-header > h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.accordion-data-hidden {
+  display: none;
+}
+
+.accordion-data {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  border-bottom: 1px solid rgb(213, 213, 213);
+  height: 200px;
+}
+
+.accordion-image > img {
+  width: 120px;
+  align-self: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.accordion-details {
+  font-weight: bold;
+  color: rgb(63, 59, 59);
 }

@@ -1,30 +1,28 @@
 import { useParams } from "react-router-dom";
-// import useRestaurantMenu from "../utils/useRestaurantMenu";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 import Shimmer from "./Shimmer";
+import RestaurantCategory from "./RestaurantCategory";
 
 const RestaurantMenu = () => {
-  console.log("RestaurantMenu started");
   let { resId } = useParams(); // resId name must match the router name u wrote while configuring the route
 
   let info = useRestaurantMenu(resId);
-
-  console.log("RestaurantMenu", info);
+  console.log(info);
+  let { restaurantName, summary, menu } = info ?? {};
 
   if (info === null) {
     return <Shimmer />;
   }
 
   return (
-    <div className="menu">
-      <h1>Name: {info}</h1>
-      <h2>Menu</h2>
-      <h3>{resId}</h3>
-      <ul>
-        <li>ABCD1</li>
-        <li>ABCD2</li>
-        <li>ABCD3</li>
-        <li>ABCD4</li>
-      </ul>
+    <div className="menu-container">
+      <div>
+        <h1>{restaurantName}</h1>
+        <h2>{summary}</h2>
+        {menu.map((item) => {
+          return <RestaurantCategory menuData={item} />;
+        })}
+      </div>
     </div>
   );
 };
@@ -49,3 +47,12 @@ export default RestaurantMenu;
 
 // The RestaurantMenu component re-renders with the updated info value from the useRestaurantMenu hook.
 // The component will now have the updated data and render accordingly.
+
+// let someObject = {
+//   sla: 12,
+// };
+// return (
+//   <div>
+//     <p>{someObject}</p> // not allowed gives error
+//   </div>
+// );

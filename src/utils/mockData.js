@@ -1660,746 +1660,750 @@ export default restaurantData1;
 
 //=========== data for the menu of a restaurant //===========
 
-// export let restaurantMenuData = [
-//   {
-//     title: "Monsoon Combos",
-//     categories: [
-//       {
-//         accordionTitle: "Monsoon Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Starter Combo For 2",
-//             price: 345,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Momo Combo For 2",
-//             price: 445,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Non-Veg Gravy, Momos & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Starter Combo For 2",
-//             price: 555,
-//             description:
-//               "Serves 4=2 | Combo for two (Rice/Noodle, Non-Veg Gravy, Starters & Drinks and more)",
-//           },
-//           {
-//             menuTitle: "Special - Starter Combo For 2",
-//             price: 1089,
-//             description:
-//               "Serves 2 |Special Combo for 2 (Rice/Noodle, Veg Gravy, Starters & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Monsoon Combo for 1 (2)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Starter Combo For 1",
-//             price: 345,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Momo Combo For 1",
-//             price: 445,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Non-Veg Gravy, Momos & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Starter Combo For 1",
-//             price: 555,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Non-Veg Gravy, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Starter Combo For 1",
-//             price: 1089,
-//             description:
-//               "Serves 1 |Special Combo for one (Rice/Noodle, Veg Gravy, Starters & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Summer Delights",
-//     categories: [
-//       {
-//         accordionTitle: "Summer Delight Combo for 2 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Summer Combo For 2",
-//             price: 399,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Starters & Cold Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - BBQ Combo For 2",
-//             price: 499,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, BBQ Chicken, Side Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Seafood - Summer Combo For 2",
-//             price: 699,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Seafood, Side Dishes & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Summer Delight Combo for 1 (2)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Summer Combo For 1",
-//             price: 399,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Starters & Cold Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - BBQ Combo For 1",
-//             price: 499,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, BBQ Chicken, Side Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Seafood - Summer Combo For 1",
-//             price: 699,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Seafood, Side Dishes & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Winter Warmers",
-//     categories: [
-//       {
-//         accordionTitle: "Winter Warmer Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Winter Combo For 2",
-//             price: 355,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Soups & Hot Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Hot Pot Combo For 2",
-//             price: 465,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Hot Pot Chicken, Soups & Drinks)",
-//           },
-//           {
-//             menuTitle: "Beef - Stew Combo For 2",
-//             price: 625,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Beef Stew, Soups & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Winter Combo For 2",
-//             price: 1150,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Gravy, Soups & Hot Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Winter Warmer Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Winter Combo For 1",
-//             price: 355,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Soups & Hot Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Hot Pot Combo For 1",
-//             price: 465,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Hot Pot Chicken, Soups & Drinks)",
-//           },
-//           {
-//             menuTitle: "Beef - Stew Combo For 1",
-//             price: 625,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Beef Stew, Soups & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Spring Specials",
-//     categories: [
-//       {
-//         accordionTitle: "Spring Special Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Spring Combo For 2",
-//             price: 399,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Spring Rolls & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Spring Roll Combo For 2",
-//             price: 485,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Chicken Spring Rolls, Side Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Spring Combo For 2",
-//             price: 599,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Pork Dish, Spring Rolls & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Spring Combo For 2",
-//             price: 1225,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Veg & Meat, Spring Rolls & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Spring Special Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Spring Combo For 1",
-//             price: 399,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Spring Rolls & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Spring Roll Combo For 1",
-//             price: 485,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Chicken Spring Rolls, Side Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Spring Combo For 1",
-//             price: 599,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Pork Dish, Spring Rolls & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Autumn Feast",
-//     categories: [
-//       {
-//         accordionTitle: "Autumn Feast Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Autumn Combo For 2",
-//             price: 425,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Roasted Vegetables & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Roast Combo For 2",
-//             price: 550,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Roast Chicken, Roasted Vegetables & Drinks)",
-//           },
-//           {
-//             menuTitle: "Lamb - Autumn Combo For 2",
-//             price: 675,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Lamb Dish, Roasted Vegetables & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Autumn Combo For 2",
-//             price: 1300,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Meat & Veg, Roasted Vegetables & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Autumn Feast Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Autumn Combo For 1",
-//             price: 425,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Roasted Vegetables & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Roast Combo For 1",
-//             price: 550,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Roast Chicken, Roasted Vegetables & Drinks)",
-//           },
-//           {
-//             menuTitle: "Lamb - Autumn Combo For 1",
-//             price: 675,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Lamb Dish, Roasted Vegetables & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Festive Feasts",
-//     categories: [
-//       {
-//         accordionTitle: "Festive Feast Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Festive Combo For 2",
-//             price: 475,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Festive Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Festive Combo For 2",
-//             price: 595,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Festive Chicken Dish, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Fish - Festive Combo For 2",
-//             price: 725,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Fish Dish, Festive Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Festive Combo For 2",
-//             price: 1400,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Festive Dishes, Starters & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Festive Feast Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Festive Combo For 1",
-//             price: 475,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Festive Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Festive Combo For 1",
-//             price: 595,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Festive Chicken Dish, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Fish - Festive Combo For 1",
-//             price: 725,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Fish Dish, Festive Starters & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Holiday Specials",
-//     categories: [
-//       {
-//         accordionTitle: "Holiday Special Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Holiday Combo For 2",
-//             price: 485,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Holiday Treats & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Holiday Roast For 2",
-//             price: 610,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Holiday Roast Chicken, Holiday Treats & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Holiday Combo For 2",
-//             price: 735,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Holiday Pork Dish, Holiday Treats & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Holiday Combo For 2",
-//             price: 1450,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Holiday Dishes, Treats & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Holiday Special Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Holiday Combo For 1",
-//             price: 485,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Holiday Treats & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Holiday Roast For 1",
-//             price: 610,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Holiday Roast Chicken, Holiday Treats & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Holiday Combo For 1",
-//             price: 735,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Holiday Pork Dish, Holiday Treats & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Celebration Packs",
-//     categories: [
-//       {
-//         accordionTitle: "Celebration Pack for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Celebration Pack For 2",
-//             price: 499,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Celebration Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Celebration Pack For 2",
-//             price: 625,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Celebration Chicken Dish, Side Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Seafood - Celebration Pack For 2",
-//             price: 755,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Seafood Dish, Celebration Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Celebration Pack For 2",
-//             price: 1550,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Celebration Dishes, Side Dishes & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Celebration Pack for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Celebration Pack For 1",
-//             price: 499,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Celebration Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Celebration Pack For 1",
-//             price: 625,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Celebration Chicken Dish, Side Dishes & Drinks)",
-//           },
-//           {
-//             menuTitle: "Seafood - Celebration Pack For 1",
-//             price: 755,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Seafood Dish, Celebration Dishes & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Gourmet Combos",
-//     categories: [
-//       {
-//         accordionTitle: "Gourmet Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Gourmet Combo For 2",
-//             price: 555,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Gourmet Veg Gravy, Starters & Premium Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Gourmet Combo For 2",
-//             price: 675,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Gourmet Chicken Dish, Starters & Premium Drinks)",
-//           },
-//           {
-//             menuTitle: "Beef - Gourmet Combo For 2",
-//             price: 805,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Gourmet Beef Dish, Starters & Premium Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Gourmet Combo For 2",
-//             price: 1650,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Gourmet Dishes, Starters & Premium Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Gourmet Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Gourmet Combo For 1",
-//             price: 555,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Gourmet Veg Gravy, Starters & Premium Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Gourmet Combo For 1",
-//             price: 675,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Gourmet Chicken Dish, Starters & Premium Drinks)",
-//           },
-//           {
-//             menuTitle: "Beef - Gourmet Combo For 1",
-//             price: 805,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Gourmet Beef Dish, Starters & Premium Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Deluxe Dishes",
-//     categories: [
-//       {
-//         accordionTitle: "Deluxe Dish Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Deluxe Combo For 2",
-//             price: 599,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Deluxe Veg Gravy, Starters & Deluxe Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Deluxe Combo For 2",
-//             price: 735,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Deluxe Chicken Dish, Starters & Deluxe Drinks)",
-//           },
-//           {
-//             menuTitle: "Lamb - Deluxe Combo For 2",
-//             price: 865,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Deluxe Lamb Dish, Starters & Deluxe Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Deluxe Combo For 2",
-//             price: 1750,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Deluxe Dishes, Starters & Deluxe Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Deluxe Dish Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Deluxe Combo For 1",
-//             price: 599,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Deluxe Veg Gravy, Starters & Deluxe Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Deluxe Combo For 1",
-//             price: 735,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Deluxe Chicken Dish, Starters & Deluxe Drinks)",
-//           },
-//           {
-//             menuTitle: "Lamb - Deluxe Combo For 1",
-//             price: 865,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Deluxe Lamb Dish, Starters & Deluxe Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Classic Combos",
-//     categories: [
-//       {
-//         accordionTitle: "Classic Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Classic Combo For 2",
-//             price: 325,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Classic Veg Gravy, Basic Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Classic Combo For 2",
-//             price: 425,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Classic Chicken Dish, Basic Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Classic Combo For 2",
-//             price: 525,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Classic Pork Dish, Basic Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Classic Combo For 2",
-//             price: 950,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Classic Dishes, Basic Starters & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Classic Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Classic Combo For 1",
-//             price: 325,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Classic Veg Gravy, Basic Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Classic Combo For 1",
-//             price: 425,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Classic Chicken Dish, Basic Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Classic Combo For 1",
-//             price: 525,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Classic Pork Dish, Basic Starters & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Signature Meals",
-//     categories: [
-//       {
-//         accordionTitle: "Signature Meal for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Signature Meal For 2",
-//             price: 699,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Signature Veg Gravy, Signature Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Signature Meal For 2",
-//             price: 825,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Signature Chicken Dish, Signature Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Beef - Signature Meal For 2",
-//             price: 975,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Signature Beef Dish, Signature Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Signature Meal For 2",
-//             price: 1850,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Signature Dishes, Signature Starters & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Signature Meal for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Signature Meal For 1",
-//             price: 699,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Signature Veg Gravy, Signature Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Signature Meal For 1",
-//             price: 825,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Signature Chicken Dish, Signature Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Beef - Signature Meal For 1",
-//             price: 975,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Signature Beef Dish, Signature Starters & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     title: "Family Favorites",
-//     categories: [
-//       {
-//         accordionTitle: "Family Favorite Combo for 2 (4)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Family Favorite For 2",
-//             price: 425,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Family Favorite Veg Gravy, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Family Favorite For 2",
-//             price: 545,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Family Favorite Chicken Dish, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Family Favorite For 2",
-//             price: 665,
-//             description:
-//               "Serves 2 | Combo for two (Rice/Noodle, Family Favorite Pork Dish, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Special - Family Favorite For 2",
-//             price: 1350,
-//             description:
-//               "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Family Favorite Dishes, Starters & Drinks)",
-//           },
-//         ],
-//       },
-//       {
-//         accordionTitle: "Family Favorite Combo for 1 (3)",
-//         accordionData: [
-//           {
-//             menuTitle: "Veg - Family Favorite For 1",
-//             price: 425,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Family Favorite Veg Gravy, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Chicken - Family Favorite For 1",
-//             price: 545,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Family Favorite Chicken Dish, Starters & Drinks)",
-//           },
-//           {
-//             menuTitle: "Pork - Family Favorite For 1",
-//             price: 665,
-//             description:
-//               "Serves 1 | Combo for one (Rice/Noodle, Family Favorite Pork Dish, Starters & Drinks)",
-//           },
-//         ],
-//       },
-//     ],
-//   },
-// ];
+export let restaurantMenuData = {
+  restaurantName: "Wok Chan",
+  summary: "Chinese food in Indian way",
+  menu: [
+    {
+      title: "Monsoon Combos",
+      categories: [
+        {
+          accordionTitle: "Monsoon Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Starter Combo For 2",
+              price: 345,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Momo Combo For 2",
+              price: 445,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Non-Veg Gravy, Momos & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Starter Combo For 2",
+              price: 555,
+              description:
+                "Serves 4=2 | Combo for two (Rice/Noodle, Non-Veg Gravy, Starters & Drinks and more)",
+            },
+            {
+              menuTitle: "Special - Starter Combo For 2",
+              price: 1089,
+              description:
+                "Serves 2 |Special Combo for 2 (Rice/Noodle, Veg Gravy, Starters & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Monsoon Combo for 1 (2)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Starter Combo For 1",
+              price: 345,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Momo Combo For 1",
+              price: 445,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Non-Veg Gravy, Momos & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Starter Combo For 1",
+              price: 555,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Non-Veg Gravy, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Special - Starter Combo For 1",
+              price: 1089,
+              description:
+                "Serves 1 |Special Combo for one (Rice/Noodle, Veg Gravy, Starters & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Summer Delights",
+      categories: [
+        {
+          accordionTitle: "Summer Delight Combo for 2 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Summer Combo For 2",
+              price: 399,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Starters & Cold Drinks)",
+            },
+            {
+              menuTitle: "Chicken - BBQ Combo For 2",
+              price: 499,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, BBQ Chicken, Side Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Seafood - Summer Combo For 2",
+              price: 699,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Seafood, Side Dishes & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Summer Delight Combo for 1 (2)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Summer Combo For 1",
+              price: 399,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Starters & Cold Drinks)",
+            },
+            {
+              menuTitle: "Chicken - BBQ Combo For 1",
+              price: 499,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, BBQ Chicken, Side Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Seafood - Summer Combo For 1",
+              price: 699,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Seafood, Side Dishes & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Winter Warmers",
+      categories: [
+        {
+          accordionTitle: "Winter Warmer Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Winter Combo For 2",
+              price: 355,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Soups & Hot Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Hot Pot Combo For 2",
+              price: 465,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Hot Pot Chicken, Soups & Drinks)",
+            },
+            {
+              menuTitle: "Beef - Stew Combo For 2",
+              price: 625,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Beef Stew, Soups & Drinks)",
+            },
+            {
+              menuTitle: "Special - Winter Combo For 2",
+              price: 1150,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Gravy, Soups & Hot Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Winter Warmer Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Winter Combo For 1",
+              price: 355,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Soups & Hot Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Hot Pot Combo For 1",
+              price: 465,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Hot Pot Chicken, Soups & Drinks)",
+            },
+            {
+              menuTitle: "Beef - Stew Combo For 1",
+              price: 625,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Beef Stew, Soups & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Spring Specials",
+      categories: [
+        {
+          accordionTitle: "Spring Special Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Spring Combo For 2",
+              price: 399,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Spring Rolls & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Spring Roll Combo For 2",
+              price: 485,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Chicken Spring Rolls, Side Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Spring Combo For 2",
+              price: 599,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Pork Dish, Spring Rolls & Drinks)",
+            },
+            {
+              menuTitle: "Special - Spring Combo For 2",
+              price: 1225,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Veg & Meat, Spring Rolls & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Spring Special Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Spring Combo For 1",
+              price: 399,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Spring Rolls & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Spring Roll Combo For 1",
+              price: 485,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Chicken Spring Rolls, Side Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Spring Combo For 1",
+              price: 599,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Pork Dish, Spring Rolls & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Autumn Feast",
+      categories: [
+        {
+          accordionTitle: "Autumn Feast Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Autumn Combo For 2",
+              price: 425,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Roasted Vegetables & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Roast Combo For 2",
+              price: 550,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Roast Chicken, Roasted Vegetables & Drinks)",
+            },
+            {
+              menuTitle: "Lamb - Autumn Combo For 2",
+              price: 675,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Lamb Dish, Roasted Vegetables & Drinks)",
+            },
+            {
+              menuTitle: "Special - Autumn Combo For 2",
+              price: 1300,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Meat & Veg, Roasted Vegetables & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Autumn Feast Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Autumn Combo For 1",
+              price: 425,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Roasted Vegetables & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Roast Combo For 1",
+              price: 550,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Roast Chicken, Roasted Vegetables & Drinks)",
+            },
+            {
+              menuTitle: "Lamb - Autumn Combo For 1",
+              price: 675,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Lamb Dish, Roasted Vegetables & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Festive Feasts",
+      categories: [
+        {
+          accordionTitle: "Festive Feast Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Festive Combo For 2",
+              price: 475,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Festive Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Festive Combo For 2",
+              price: 595,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Festive Chicken Dish, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Fish - Festive Combo For 2",
+              price: 725,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Fish Dish, Festive Starters & Drinks)",
+            },
+            {
+              menuTitle: "Special - Festive Combo For 2",
+              price: 1400,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Festive Dishes, Starters & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Festive Feast Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Festive Combo For 1",
+              price: 475,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Festive Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Festive Combo For 1",
+              price: 595,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Festive Chicken Dish, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Fish - Festive Combo For 1",
+              price: 725,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Fish Dish, Festive Starters & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Holiday Specials",
+      categories: [
+        {
+          accordionTitle: "Holiday Special Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Holiday Combo For 2",
+              price: 485,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Holiday Treats & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Holiday Roast For 2",
+              price: 610,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Holiday Roast Chicken, Holiday Treats & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Holiday Combo For 2",
+              price: 735,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Holiday Pork Dish, Holiday Treats & Drinks)",
+            },
+            {
+              menuTitle: "Special - Holiday Combo For 2",
+              price: 1450,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Holiday Dishes, Treats & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Holiday Special Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Holiday Combo For 1",
+              price: 485,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Holiday Treats & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Holiday Roast For 1",
+              price: 610,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Holiday Roast Chicken, Holiday Treats & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Holiday Combo For 1",
+              price: 735,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Holiday Pork Dish, Holiday Treats & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Celebration Packs",
+      categories: [
+        {
+          accordionTitle: "Celebration Pack for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Celebration Pack For 2",
+              price: 499,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Veg Gravy, Celebration Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Celebration Pack For 2",
+              price: 625,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Celebration Chicken Dish, Side Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Seafood - Celebration Pack For 2",
+              price: 755,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Seafood Dish, Celebration Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Special - Celebration Pack For 2",
+              price: 1550,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Celebration Dishes, Side Dishes & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Celebration Pack for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Celebration Pack For 1",
+              price: 499,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Veg Gravy, Celebration Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Celebration Pack For 1",
+              price: 625,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Celebration Chicken Dish, Side Dishes & Drinks)",
+            },
+            {
+              menuTitle: "Seafood - Celebration Pack For 1",
+              price: 755,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Seafood Dish, Celebration Dishes & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Gourmet Combos",
+      categories: [
+        {
+          accordionTitle: "Gourmet Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Gourmet Combo For 2",
+              price: 555,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Gourmet Veg Gravy, Starters & Premium Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Gourmet Combo For 2",
+              price: 675,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Gourmet Chicken Dish, Starters & Premium Drinks)",
+            },
+            {
+              menuTitle: "Beef - Gourmet Combo For 2",
+              price: 805,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Gourmet Beef Dish, Starters & Premium Drinks)",
+            },
+            {
+              menuTitle: "Special - Gourmet Combo For 2",
+              price: 1650,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Gourmet Dishes, Starters & Premium Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Gourmet Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Gourmet Combo For 1",
+              price: 555,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Gourmet Veg Gravy, Starters & Premium Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Gourmet Combo For 1",
+              price: 675,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Gourmet Chicken Dish, Starters & Premium Drinks)",
+            },
+            {
+              menuTitle: "Beef - Gourmet Combo For 1",
+              price: 805,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Gourmet Beef Dish, Starters & Premium Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Deluxe Dishes",
+      categories: [
+        {
+          accordionTitle: "Deluxe Dish Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Deluxe Combo For 2",
+              price: 599,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Deluxe Veg Gravy, Starters & Deluxe Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Deluxe Combo For 2",
+              price: 735,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Deluxe Chicken Dish, Starters & Deluxe Drinks)",
+            },
+            {
+              menuTitle: "Lamb - Deluxe Combo For 2",
+              price: 865,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Deluxe Lamb Dish, Starters & Deluxe Drinks)",
+            },
+            {
+              menuTitle: "Special - Deluxe Combo For 2",
+              price: 1750,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Deluxe Dishes, Starters & Deluxe Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Deluxe Dish Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Deluxe Combo For 1",
+              price: 599,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Deluxe Veg Gravy, Starters & Deluxe Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Deluxe Combo For 1",
+              price: 735,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Deluxe Chicken Dish, Starters & Deluxe Drinks)",
+            },
+            {
+              menuTitle: "Lamb - Deluxe Combo For 1",
+              price: 865,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Deluxe Lamb Dish, Starters & Deluxe Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Classic Combos",
+      categories: [
+        {
+          accordionTitle: "Classic Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Classic Combo For 2",
+              price: 325,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Classic Veg Gravy, Basic Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Classic Combo For 2",
+              price: 425,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Classic Chicken Dish, Basic Starters & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Classic Combo For 2",
+              price: 525,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Classic Pork Dish, Basic Starters & Drinks)",
+            },
+            {
+              menuTitle: "Special - Classic Combo For 2",
+              price: 950,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Classic Dishes, Basic Starters & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Classic Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Classic Combo For 1",
+              price: 325,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Classic Veg Gravy, Basic Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Classic Combo For 1",
+              price: 425,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Classic Chicken Dish, Basic Starters & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Classic Combo For 1",
+              price: 525,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Classic Pork Dish, Basic Starters & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Signature Meals",
+      categories: [
+        {
+          accordionTitle: "Signature Meal for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Signature Meal For 2",
+              price: 699,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Signature Veg Gravy, Signature Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Signature Meal For 2",
+              price: 825,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Signature Chicken Dish, Signature Starters & Drinks)",
+            },
+            {
+              menuTitle: "Beef - Signature Meal For 2",
+              price: 975,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Signature Beef Dish, Signature Starters & Drinks)",
+            },
+            {
+              menuTitle: "Special - Signature Meal For 2",
+              price: 1850,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Signature Dishes, Signature Starters & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Signature Meal for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Signature Meal For 1",
+              price: 699,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Signature Veg Gravy, Signature Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Signature Meal For 1",
+              price: 825,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Signature Chicken Dish, Signature Starters & Drinks)",
+            },
+            {
+              menuTitle: "Beef - Signature Meal For 1",
+              price: 975,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Signature Beef Dish, Signature Starters & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Family Favorites",
+      categories: [
+        {
+          accordionTitle: "Family Favorite Combo for 2 (4)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Family Favorite For 2",
+              price: 425,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Family Favorite Veg Gravy, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Family Favorite For 2",
+              price: 545,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Family Favorite Chicken Dish, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Family Favorite For 2",
+              price: 665,
+              description:
+                "Serves 2 | Combo for two (Rice/Noodle, Family Favorite Pork Dish, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Special - Family Favorite For 2",
+              price: 1350,
+              description:
+                "Serves 2 | Special Combo for two (Rice/Noodle, Mixed Family Favorite Dishes, Starters & Drinks)",
+            },
+          ],
+        },
+        {
+          accordionTitle: "Family Favorite Combo for 1 (3)",
+          accordionData: [
+            {
+              menuTitle: "Veg - Family Favorite For 1",
+              price: 425,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Family Favorite Veg Gravy, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Chicken - Family Favorite For 1",
+              price: 545,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Family Favorite Chicken Dish, Starters & Drinks)",
+            },
+            {
+              menuTitle: "Pork - Family Favorite For 1",
+              price: 665,
+              description:
+                "Serves 1 | Combo for one (Rice/Noodle, Family Favorite Pork Dish, Starters & Drinks)",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
