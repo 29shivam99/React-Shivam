@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
+import AboutClass from "./components/AboutClass";
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
@@ -31,6 +32,7 @@ const appRouter = createBrowserRouter([
         path: "/",
         element: <Body />,
       },
+      //
       {
         path: "/about",
         element: <About />,
@@ -39,14 +41,15 @@ const appRouter = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+      {
+        path: "/restaurants/:resId",
+        element: <RestaurantMenu />,
+      },
     ],
 
     errorElement: <Error />,
   },
-  {
-    path: "/restaurants/:resId",
-    element: <RestaurantMenu />,
-  },
+
   // {
   //   path: "/About",
   //   element: <About />,

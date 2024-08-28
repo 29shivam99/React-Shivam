@@ -1,3 +1,5 @@
+import React from "react";
+import NewHeaderForUserClass from "./NewHeaderForUserClass";
 class UserClass extends React.Component {
   constructor(props) {
     super(props); // mandatory
@@ -7,11 +9,19 @@ class UserClass extends React.Component {
       count2: 2,
       color: "red",
     };
+    console.log(this.props.name + "constructor of userclass"); // first constructor is called
   }
+
+  componentDidMount() {
+    console.log(this.props.name + "componentDidMount userClass");
+  }
+
   render() {
     let { count, count2 } = this.state;
+    console.log(this.props.name + "render of userclass"); // after constructor then the render is called
     return (
       <div className="user-card">
+        <NewHeaderForUserClass />
         <h1>Name: Shivam</h1>
         <h2>Location: Kanpur</h2>
         <h3>Contact: @shivam29</h3>

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { promotedRestaurantCard } from "./RestaurantCard";
 import restaurantData1 from "../utils/mockData";
 import Shimmer from "./Shimmer";
-import { SHIMMER_CARDS_LEANGTH } from "../utils/constants";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 const Body = () => {
   // local state variable for body
   let [restaurantList, setRestaurantList] = useState([]);
@@ -33,6 +33,18 @@ const Body = () => {
     };
     fetchRestaurantList();
   }, []);
+
+  let isOnline = useOnlineStatus();
+
+  if (isOnline === false) {
+    return (
+      <div>
+        <h1>You are offline!</h1>
+      </div>
+    );
+  }
+
+  let PromoResCard = promotedRestaurantCard(RestaurantCard);
 
   bodyStyle = {
     marginTop: "20px", // see values are string and the keys are camel cased
@@ -71,6 +83,7 @@ const Body = () => {
           }}
         />
         <button
+          className="search-btn"
           onClick={(e) => {
             let inputValue = document.querySelector(".search-input").value;
             console.log("search", inputValue, 1);
@@ -109,9 +122,14 @@ const Body = () => {
       </div>
       <div className="restaurant-container">
         {filteredRestaurant.map((rest) => {
-          return (
+          console.log(rest);
+          return !rest.analytics.promoted ? (
             <Link to="" key={rest.info.id}>
               <RestaurantCard resData={rest} />
+            </Link>
+          ) : (
+            <Link to="" key={rest.info.id}>
+              <PromoResCard resData={rest} />
             </Link>
           );
         })}

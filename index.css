@@ -1,3 +1,5 @@
+/* ! My old css */
+
 * {
   box-sizing: border-box;
 }
@@ -13,7 +15,6 @@
   align-items: center;
   box-shadow: 0px 4px 4px 0px rgb(240, 236, 236);
   padding: 0px 10%;
-  /* background-color: rgb(201, 78, 33); */
 }
 
 .logo-container > img {
@@ -31,7 +32,7 @@
 .nav-items > ul > li {
   display: inline-block;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: rgb(78, 75, 75);
   text-shadow: whitesmoke;
@@ -46,6 +47,11 @@
 
 .main-content {
   margin-top: 10px;
+}
+
+.search-btn {
+  padding: 5px;
+  background-color: rgb(109, 109, 109);
 }
 
 .search {
@@ -81,8 +87,7 @@ button {
   background-color: rgb(255 255 255);
   width: 260px;
   min-height: fit-content;
-  max-height: 350px;
-  /* max-height: ; */
+  height: 360px;
   border: none;
   border-radius: 8px;
   box-shadow: 0px 8px 8px 2px #ebebeb;
@@ -106,6 +111,7 @@ button {
   justify-content: center;
   gap: 10px;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .card-details > h3,
@@ -125,7 +131,6 @@ h4 {
   flex-wrap: wrap;
   gap: 25px;
   justify-content: start;
-  /* padding-left: 2%; */
 }
 
 .img-card {
@@ -147,8 +152,9 @@ h4 {
 
 .filter-btn {
   cursor: pointer;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   height: 35px;
+  padding: 5px;
 }
 
 .check-color {
@@ -168,17 +174,16 @@ h4 {
 }
 a:-webkit-any-link {
   text-decoration: none;
-  color: rgb(26, 24, 24);
+  /* color: rgb(26, 24, 24); */
   cursor: pointer;
 }
 
 .user-card {
   color: white;
   padding: 10px;
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: fit-content;
   border-radius: 10px;
-  /* box-shadow: 1px 1px 19px 12px rgb(252, 252, 252); */
   background-image: linear-gradient(to bottom right, #abecf2c7, #5cafb1);
 }
 
@@ -186,4 +191,24 @@ a:-webkit-any-link {
   display: flex;
   margin: 20px 10%;
   gap: 20px;
+}
+
+.promoted-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 80px;
+  height: 25px;
+  border-radius: 6px;
+  color: white;
+  font-size: 12px;
+  padding: auto;
+  position: absolute;
+  top: -9px;
+  left: -8px;
+}
+
+.promoted-res-container {
+  position: relative;
 }
