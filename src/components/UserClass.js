@@ -3,22 +3,22 @@ import NewHeaderForUserClass from "./NewHeaderForUserClass";
 class UserClass extends React.Component {
   constructor(props) {
     super(props); // mandatory
-    console.log(props);
+    ////console.log(props);
     this.state = {
       count: 1,
       count2: 2,
       color: "red",
     };
-    console.log(this.props.name + "constructor of userclass"); // first constructor is called
+    ////console.log(this.props.name + "constructor of userclass"); // first constructor is called
   }
 
   componentDidMount() {
-    console.log(this.props.name + "componentDidMount userClass");
+    ////console.log(this.props.name + "componentDidMount userClass");
   }
 
   render() {
     let { count, count2 } = this.state;
-    console.log(this.props.name + "render of userclass"); // after constructor then the render is called
+    ////console.log(this.props.name + "render of userclass"); // after constructor then the render is called
     return (
       <div className="user-card">
         <NewHeaderForUserClass />
@@ -29,7 +29,7 @@ class UserClass extends React.Component {
         <p>Count2 : {count2}</p>
         <button
           onClick={() => {
-            console.log("clicked");
+            ////console.log("clicked");
             // this.state.count++; //! this not how we modify a state in class based, never ever directlyupdate ur state variables (even in func component we dont directly do this)
             this.setState({
               count: count + 1,

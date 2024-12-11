@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const User = (props) => {
-  console.log("user comp");
+  ////console.log("user comp");
   return (
     <div className="user-card">
       <h1>Name: Shivam</h1>

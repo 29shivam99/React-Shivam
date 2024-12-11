@@ -10,11 +10,11 @@ const Body = () => {
   let [restaurantList, setRestaurantList] = useState([]);
   let [filteredRestaurant, setFilteredRestaurant] = useState([]);
   let [searchValue, setSearchValue] = useState([""]);
-  console.log("body start");
+  ////console.log("body start");
 
   useEffect(() => {
     const fetchRestaurantList = async () => {
-      console.log("useeffect in body");
+      ////console.log("useeffect in body");
       // Define the async function inside useEffect
       try {
         let result = await fetch(
@@ -24,7 +24,7 @@ const Body = () => {
           throw new Error("Network response was not ok");
         }
         let data = await result.json();
-        console.log(data);
+        ////console.log(data);
         setRestaurantList(restaurantData1);
         setFilteredRestaurant(restaurantData1);
       } catch (error) {
@@ -67,7 +67,7 @@ const Body = () => {
       </div>
     );
   }
-  console.log("body rendered");
+  ////console.log("body rendered");
   return (
     <div className="body">
       <div className="search">
@@ -86,16 +86,16 @@ const Body = () => {
           className="search-btn"
           onClick={(e) => {
             let inputValue = document.querySelector(".search-input").value;
-            console.log("search", inputValue, 1);
+            ////console.log("search", inputValue, 1);
             if (inputValue !== "") {
               const filteredData = restaurantList.filter((item) => {
-                console.log(item.info.name);
+                ////console.log(item.info.name);
                 return item.info.name
                   .toLowerCase()
                   .includes(inputValue.toLowerCase());
               });
 
-              console.log(filteredData);
+              ////console.log(filteredData);
               setFilteredRestaurant(filteredData);
             } else {
               setFilteredRestaurant(restaurantData1);
@@ -122,13 +122,13 @@ const Body = () => {
       </div>
       <div className="restaurant-container">
         {filteredRestaurant.map((rest) => {
-          console.log(rest);
+          ////console.log(rest);
           return !rest.analytics.promoted ? (
-            <Link to="" key={rest.info.id}>
+            <Link to={`/restaurants/${rest.info.id}`} key={rest.info.id}>
               <RestaurantCard resData={rest} />
             </Link>
           ) : (
-            <Link to="" key={rest.info.id}>
+            <Link to={`/restaurants/${rest.info.id}`} key={rest.info.id}>
               <PromoResCard resData={rest} />
             </Link>
           );

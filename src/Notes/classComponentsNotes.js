@@ -70,3 +70,5 @@
 //! componentWillUnmount()
 
 // is called just before the component is going to be unloaded from DOM/UI
+
+//! we can not use hooks in class comp

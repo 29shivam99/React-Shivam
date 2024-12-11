@@ -14,8 +14,8 @@ const root = ReactDOM.createRoot(document.querySelector("#root"));
 // now render method takes the object returened by createElement and then converts it into HTML element and adds it to DOM. Also see the children which were already in the root div of html (<h1>This H1 is already in HTML</h1>) will be replaced by whatever is passed to render fn. SO render replaces ( not append) everything in the root. And see how everytihng at top/bottom of the Root stays same.
 // Hence react works only at the part which we declare at root.
 
-console.log(typeof heading, heading);
-console.log(typeof root, root);
+////console.log(typeof heading, heading);
+////console.log(typeof root, root);
 
 //////! NEED FOR JSX ///////////
 
@@ -165,7 +165,7 @@ But to configure it ourselves do this
 // these JSX code is transpiled before it reached the JS engine. Transpiling is done by babel. Babel is not installed by us, rather parcel isntalled it. So babel transpiles the code
 // this JSX code is transpiled(by babel) to React ka createElement function which converts it to the JS object and hence headingJSX is object (try to console and see). Then when we pass it to root.render then that JS object is converted to corresponding HTML element.
 const headingJSX = <h1 className="head">Hi this is heading via JSX</h1>;
-console.log(headingJSX);
+////console.log(headingJSX);
 root.render(headingJSX);
 
 //! can not use for loop in JSX

@@ -5,15 +5,15 @@ import User from "./User";
 class AboutClass extends React.Component {
   constructor(props) {
     super(props);
-    console.log("constructor of parent (about class component)");
+    ////console.log("constructor of parent (about class component)");
   }
 
   componentDidMount() {
-    console.log("componentDidMount of parent (about class component)");
+    ////console.log("componentDidMount of parent (about class component)");
   }
 
   render() {
-    console.log("render of parent (about class component)");
+    ////console.log("render of parent (about class component)");
 
     return (
       <div>

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { CDN_URL } from "../utils/constants";
 const RestaurantCard = (props) => {
-  console.log(props);
+  //console.log(props);
   let { name, cuisines, avgRating, sla, costForTwo, cloudinaryImageId } =
     props?.resData?.info;
   return (
@@ -27,7 +27,7 @@ const RestaurantCard = (props) => {
 
 export const promotedRestaurantCard = (RestaurantCard) => {
   return (props) => {
-    console.log(props);
+    //console.log(props);
     return (
       <div className="promoted-res-container">
         <label className="promoted-label">Promoted</label>

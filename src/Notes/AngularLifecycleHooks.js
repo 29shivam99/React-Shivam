@@ -134,7 +134,7 @@ export class changeToGreen {} */
 // @ViewChild(Child1Component) child1Component : Child1Component
 
 // ngOnInit(){
-//   console.log(child1Component);
+//   ////console.log(child1Component);
 // }
 
 //! if we want that our child 2 has to get some data from the child 1 (child1 and child2 are siblings) then in that case we can use @ViewChild and get reference to the child1 in the parent like we did above and in child2 we can create 1 input prop and then parent passes the property which was needed from child1 to child2  like this -
@@ -153,7 +153,7 @@ export class changeToGreen {} */
 // @ViewChild(Child1Component) child1Component : Child1Component
 // countFromChild1;
 // ngOnInit(){
-//   console.log(child1Component);
+//   ////console.log(child1Component);
 //   this.countFromChild1 = this.child1Component.count;
 // }
 

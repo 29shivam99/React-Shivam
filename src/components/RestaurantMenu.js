@@ -2,16 +2,26 @@ import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 import Shimmer from "./Shimmer";
 import RestaurantCategory from "./RestaurantCategory";
+import { useState } from "react";
+import ShimmerMenu from "./ShimmerMenu";
 
 const RestaurantMenu = () => {
   let { resId } = useParams(); // resId name must match the router name u wrote while configuring the route
 
+  let [showCategoryIndex, setShowCategoryIndex] = useState(null);
+
   let info = useRestaurantMenu(resId);
-  console.log(info);
   let { restaurantName, summary, menu } = info ?? {};
 
   if (info === null) {
-    return <Shimmer />;
+    return (
+      <div>
+        <ShimmerMenu />
+        <ShimmerMenu />
+        <ShimmerMenu />
+        <ShimmerMenu />
+      </div>
+    );
   }
 
   return (
@@ -19,8 +29,16 @@ const RestaurantMenu = () => {
       <div>
         <h1>{restaurantName}</h1>
         <h2>{summary}</h2>
-        {menu.map((item) => {
-          return <RestaurantCategory menuData={item} />;
+        {menu.map((item, index) => {
+          return (
+            <RestaurantCategory
+              menuData={item}
+              key={index}
+              categoryIndex={index}
+              canShowCategoryIndex={index === showCategoryIndex ? true : false} //canShowCategoryIndex we are using to the child that is RestaurantCategory and it is controlling the child.
+              funcToChild={() => setShowCategoryIndex(index)}
+            />
+          );
         })}
       </div>
     </div>

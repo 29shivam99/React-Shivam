@@ -1,21 +1,21 @@
 import { useState } from "react";
 import RestaurantCategoryData from "./RestaurantCategoryData";
+import AccordionHeader from "./AccordionHeader";
+
+//! this uses state variable here and it is more intuitive
 const RestaurantCategory = (props) => {
-  let [accordionsExpanded, setAccordionsExpanded] = useState([]);
+  let [accordionIndex, setAccordionIndex] = useState(null);
 
   let { categories, title } = props?.menuData;
+  let { categoryIndex, canShowCategoryIndex, funcToChild } = props;
 
-  console.log(categories);
-
-  function handleAccordionClick(e, index) {
-    if (accordionsExpanded.includes(index)) {
-      console.log(index, "was expanded");
-      setAccordionsExpanded(
-        accordionsExpanded.filter((item) => item !== index)
-      );
+  //! this function will not rerender the component 2 times, rather only 1 time bcoz => In React, state updates are batched for performance optimization. This means that multiple state updates within the same event handler or lifecycle method are processed in a single re-render
+  function handleHeaderClick(e, index) {
+    if (index === accordionIndex) {
+      setAccordionIndex(null);
     } else {
-      console.log(index, "was collapsed");
-      setAccordionsExpanded([...accordionsExpanded, index]);
+      setAccordionIndex(index);
+      funcToChild();
     }
   }
 
@@ -28,10 +28,10 @@ const RestaurantCategory = (props) => {
       {categories.map((item, index) => {
         return (
           <div className="accordion-container">
-            {/* pack for 1 -  */}
+            {/* Accordion header */}
             <div
               className="accordion-header"
-              onClick={(event) => handleAccordionClick(event, index)}
+              onClick={(e) => handleHeaderClick(e, index)}
             >
               <div>
                 <h3>{item.accordionTitle}</h3>
@@ -40,28 +40,17 @@ const RestaurantCategory = (props) => {
                 <p>{"+"}</p>
               </div>
             </div>
-            <div
-              className={`${
-                !accordionsExpanded.includes(index) && `accordion-data-hidden`
-              }`}
-            >
-              {/* accordion details */}
-              {item.accordionData.map((item, index) => {
-                return (
-                  <RestaurantCategoryData data={item} key={index} />
-                  // <div className="accordion-data">
-                  //   <div key={index} className="accordion-details">
-                  //     <p>{menuTitle}</p>
-                  //     <p>Rs. {price}</p>
-                  //     <p>{description}</p>
-                  //   </div>
-                  //   <div className="accordion-image">
-                  //     <img src={`${CDN_URL}${cloudinaryImageId}`}></img>
-                  //   </div>
-                  // </div>
-                );
-              })}
-            </div>
+
+            {/* accordion details i.e subcategories */}
+            {canShowCategoryIndex && accordionIndex === index && (
+              <div>
+                {item.accordionData.map((item, ind) => {
+                  return (
+                    <RestaurantCategoryData data={item} index={ind} key={ind} />
+                  );
+                })}
+              </div>
+            )}
           </div>
         );
       })}
